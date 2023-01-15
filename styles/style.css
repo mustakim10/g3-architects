@@ -364,7 +364,8 @@ margin: auto;
        margin-left: 0;
     }
     .brand-img img{
-        width: 400px;
+        width: 300px;
+        height: 250px;
         padding-left: 5px;
        
     }
@@ -386,11 +387,13 @@ margin: auto;
         
         }
         .sec-2-title{
-            width: 400px;
+            width: auto;
         }
         .sec-pera{
-            width: 400px;
+            width: auto;
+
         }
+      
         .sec-2-left{
             margin-left: 5px;
         }
