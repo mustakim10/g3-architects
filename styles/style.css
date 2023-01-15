@@ -224,6 +224,9 @@ margin-top: 50px;
 }
 .logo:hover{
     background-color:beige;
+    transform: rotate(360deg) scale(0.9);
+    transition-duration: 2s;
+
 }
 .logo img{
 margin-top: 30px;
