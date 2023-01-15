@@ -339,3 +339,94 @@ margin: auto;
     color: #424242;
     padding-top: 35px;
 }
+
+/* Responsive mobile device */
+@media only screen and (max-width:576px) {
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .g3  {
+        margin-left: 0;
+    }
+    .nav-ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .brand-title{
+        text-align: left;
+        width: auto;
+    }
+    .brand-btn{
+       margin-top: 150px;
+       margin-left: 0;
+    }
+    .brand-img img{
+        width: 400px;
+        padding-left: 5px;
+       
+    }
+    .section-1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sec-1-left{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 5px;
+    }
+    .sec-1-right-info{
+        width: auto;
+    }
+    .section-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        }
+        .sec-2-title{
+            width: 400px;
+        }
+        .sec-pera{
+            width: 400px;
+        }
+        .sec-2-left{
+            margin-left: 5px;
+        }
+        .fact{
+            margin-left: 5px;
+        }
+        .fact-pera{
+            width: auto;
+        }
+        .logo-container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-left: 5px;
+            margin-top: 10px;
+            }
+            .collections{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                margin-left: 5px;
+                
+            }
+            .last-top{
+                text-align: left;
+                width: auto;
+                
+                }
+            .last-bottom{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                justify-content: center;
+                margin-top: 10px;
+                margin-left: 5px;
+                }
+                .footer{
+                    width: auto;
+                }
+
+
+}
